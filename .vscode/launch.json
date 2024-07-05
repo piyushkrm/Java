@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrayDuplicate",
+            "request": "launch",
+            "mainClass": "arrayDuplicate",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "BST",
             "request": "launch",
             "mainClass": "BST",
