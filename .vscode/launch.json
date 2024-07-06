@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findMaximumConsecutive",
+            "request": "launch",
+            "mainClass": "findMaximumConsecutive",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "arrayDuplicate",
             "request": "launch",
             "mainClass": "arrayDuplicate",
