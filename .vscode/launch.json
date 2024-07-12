@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthElement",
+            "request": "launch",
+            "mainClass": "KthElement",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "SortingBubble",
             "request": "launch",
             "mainClass": "SortingBubble",
