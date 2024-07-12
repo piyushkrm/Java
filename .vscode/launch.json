@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findPeakEleNeg",
+            "request": "launch",
+            "mainClass": "findPeakEleNeg",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "findMaximumConsecutive",
             "request": "launch",
             "mainClass": "findMaximumConsecutive",
