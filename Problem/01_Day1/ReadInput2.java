@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class ReadInput2 {
     public static void main(String[] args) throws IOException {
@@ -11,11 +12,17 @@ public class ReadInput2 {
         System.out.print("Enter your name : ");
         BufferedReader Reader = new BufferedReader(new InputStreamReader(System.in));
         String name = Reader.readLine();
-        System.out.println("Your name is : "+name);
+        System.out.println("Good morning "+name);
 
 
 
         // 2. Using scanner class
+        System.out.print("Enter your good name : ");
+        Scanner sc = new Scanner(System.in);
+        String name1 = sc.nextLine();
+        System.out.println("Good afternoon "+name1);
+
+        
         // 3. Using console class
         // 4. Using command line argument
 
