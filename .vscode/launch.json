@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReadInput2",
+            "request": "launch",
+            "mainClass": "ReadInput2",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "Input1",
             "request": "launch",
             "mainClass": "Input1",
