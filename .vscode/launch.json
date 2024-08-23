@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Input1",
+            "request": "launch",
+            "mainClass": "Input1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "findOccurence",
             "request": "launch",
             "mainClass": "findOccurence",
