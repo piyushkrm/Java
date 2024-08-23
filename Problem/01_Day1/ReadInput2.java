@@ -24,12 +24,21 @@ public class ReadInput2 {
 
         
         // 3. Using console class
-        System.out.print("Enter your good name : ");
+        System.out.print("Enter your good name :");
         String name2 = System.console().readLine();
         System.out.println("Good evening "+name2);
 
         
         // 4. Using command line argument
+        System.out.print("Enter your name : ");
+        if (args.length > 0) {
+            System.out.println("The command line arguments are : ");
+
+            for (String val : args)
+            System.out.println(val);
+        }
+        else
+        System.out.println("No command line argument "+"arguments found.");
 
     }
 }
