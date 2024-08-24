@@ -38,7 +38,18 @@ public class SwappingTheValue2 {
         e = e ^ f;
         f = e ^ f;
         e = e ^ f;
-        System.out.println("Befone swapping the values of e is : " + e + " and f is : " + f);
+        System.out.println("After swapping the values of e is : " + e + " and f is : " + f);
+        
+        
+        // Approach 4 Using arithmetic operator
+        int g = 80;
+        int h = 89;
+        System.out.println("Befone swapping the values of g is : " + g + " and h is : " + h);
+        g = (g + h) - (h = g);
+
+
+        System.out.println("After swapping the values of g is : " + g + " and h is : " + h);
+
 
 
 
