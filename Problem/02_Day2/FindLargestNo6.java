@@ -17,6 +17,11 @@ public class FindLargestNo6 {
         }
     }
 
+    public static void biggestNumber(int x, int y, int z) {
+       int  result = z  > (x > y ? x : y) ? z : ((x > y) ? x : y);
+       System.out.println(result+ " are largest of those number.");
+    }
+
     public static void main(String arga[]) {
         System.out.println("In this program we will find the larget of three numbers.");
 
@@ -33,7 +38,11 @@ public class FindLargestNo6 {
         // There are many approaches to find the largest number
         // 1. Using if else statement
         // We will make a function to find the larget number
-        usingIfElse(x, y, z);
+        // usingIfElse(x, y, z);
+
+        // 2. Usinf ternary operator
+        biggestNumber(x, y, z);
+
 
     }
 }
