@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddTwoBinary3",
+            "request": "launch",
+            "mainClass": "AddTwoBinary3",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "SwappingTheValue2",
             "request": "launch",
             "mainClass": "SwappingTheValue2",
