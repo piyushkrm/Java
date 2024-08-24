@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultiplyOfFlotingNumber",
+            "request": "launch",
+            "mainClass": "MultiplyOfFlotingNumber",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "ReadInput2",
             "request": "launch",
             "mainClass": "ReadInput2",
