@@ -15,5 +15,18 @@ public class SwappingTheValue2 {
 
         System.out.println("After swapping the values of a is : " + a + " and b is : "+ b);
 
+
+        // Approach 2 Without using temp variable
+        int c = 45;
+        int d = 55;
+        System.out.println("Befone swapping the values of c is : " + c + " and d is : " + d);
+        
+        c = c + d;
+        d = c - d;
+        c = c - d;
+
+        System.out.println("After swapping the values of c is : " + c + " and d is : " + d);
+
+
     }
 }
