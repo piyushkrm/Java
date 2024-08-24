@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddBinaryWithFun4",
+            "request": "launch",
+            "mainClass": "AddBinaryWithFun4",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "AddTwoBinary3",
             "request": "launch",
             "mainClass": "AddTwoBinary3",
