@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class FindLargestNo6 {
@@ -20,17 +23,27 @@ public class FindLargestNo6 {
 
     // Approach 2
     public static void biggestNumber(int x, int y, int z) {
-       int  result = z  > (x > y ? x : y) ? z : ((x > y) ? x : y);
-       System.out.println(result+ " are largest of those number.");
+        int result = z > (x > y ? x : y) ? z : ((x > y) ? x : y);
+        System.out.println(result + " is largest of those number.");
     }
-
 
     // Approach 3
     public static void usingMath(int x, int y, int z) {
         int result = Math.max(x, Math.max(y, z));
-        System.out.println(result+ " are biggest number.");
+        System.out.println(result + " is biggest number.");
     }
 
+    // Approach 4
+    public static void usingCollection(int x, int y, int z) {
+        ArrayList<Integer> arr = new ArrayList<>();
+        arr.add(x);
+        arr.add(y);
+        arr.add(z);
+
+        int result = Collections.max(arr);
+        System.out.println(result + " is biggest number.");
+
+    }
 
     public static void main(String arga[]) {
         System.out.println("In this program we will find the larget of three numbers.");
@@ -56,6 +69,8 @@ public class FindLargestNo6 {
         // 3. Using math function
         usingMath(x, y, z);
 
+        // 4. Usinf collection.max function
+        usingCollection(x, y, z);
 
     }
 }
