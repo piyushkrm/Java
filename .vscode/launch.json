@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckEvenOdd5",
+            "request": "launch",
+            "mainClass": "CheckEvenOdd5",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "AddBinaryWithFun4",
             "request": "launch",
             "mainClass": "AddBinaryWithFun4",
