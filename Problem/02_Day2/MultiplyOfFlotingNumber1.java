@@ -1,4 +1,4 @@
-public class MultiplyOfFlotingNumber {
+public class MultiplyOfFlotingNumber1 {
     public static void main(String[] args) {
         float a = 10.5f;
         float b = 2.3f;
