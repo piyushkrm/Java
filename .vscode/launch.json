@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hcf2",
+            "request": "launch",
+            "mainClass": "hcf2",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "lcm1",
             "request": "launch",
             "mainClass": "lcm1",
