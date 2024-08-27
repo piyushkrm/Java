@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class leepYear3 {
+public class leepYear4 {
     public static boolean findLeepYear(int year) {
         if (year % 4 != 0) {
             return false;
