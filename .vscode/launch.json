@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lcm1",
+            "request": "launch",
+            "mainClass": "lcm1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "FindLargestNo6",
             "request": "launch",
             "mainClass": "FindLargestNo6",
