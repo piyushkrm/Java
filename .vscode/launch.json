@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leepYear3",
+            "request": "launch",
+            "mainClass": "leepYear3",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "primeNumber3",
             "request": "launch",
             "mainClass": "primeNumber3",
