@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "perimeterOfRectangle",
+            "request": "launch",
+            "mainClass": "perimeterOfRectangle",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "compoundInterest7",
             "request": "launch",
             "mainClass": "compoundInterest7",
