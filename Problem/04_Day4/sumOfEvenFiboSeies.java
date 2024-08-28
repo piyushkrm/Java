@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class sumOfEvenFiboSeies {
     public static void sumOfEvenFibo(int n) {
         long[] fibnacciSeries = new long[n];
@@ -13,12 +14,12 @@ public class sumOfEvenFiboSeies {
         long sum = 0;
         for (int i = 0; i < n; i++) {
             if (fibnacciSeries[i] % 2 == 0) {
-                System.out.print(fibnacciSeries[i]+" ");
+                System.out.print(fibnacciSeries[i] + " ");
                 sum += fibnacciSeries[i];
             }
         }
         System.out.println();
-        System.out.print("Sum of even fibonacci series are : "+sum);
+        System.out.print("Sum of even fibonacci series are : " + sum);
     }
 
     public static void main(String[] args) {
