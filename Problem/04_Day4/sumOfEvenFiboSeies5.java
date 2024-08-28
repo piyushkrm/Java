@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumOfEvenFiboSeies {
+public class sumOfEvenFiboSeies5 {
     public static void sumOfEvenFibo(int n) {
         long[] fibnacciSeries = new long[n];
 
