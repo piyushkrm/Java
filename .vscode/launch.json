@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sumofFibo4",
+            "request": "launch",
+            "mainClass": "sumofFibo4",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "findFibonacci3",
             "request": "launch",
             "mainClass": "findFibonacci3",
