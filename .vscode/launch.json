@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "checkVovelorConst1",
+            "request": "launch",
+            "mainClass": "checkVovelorConst1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "neonNumber5",
             "request": "launch",
             "mainClass": "neonNumber5",
