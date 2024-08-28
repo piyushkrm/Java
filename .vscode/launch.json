@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calculateFact2",
+            "request": "launch",
+            "mainClass": "calculateFact2",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "checkVovelorConst1",
             "request": "launch",
             "mainClass": "checkVovelorConst1",
