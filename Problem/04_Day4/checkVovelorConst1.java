@@ -11,12 +11,18 @@ public class checkVovelorConst1 {
         }
     }
 
+    public static void checkCharacter(char character) {
+        String str = "aeiouAEIOU";
+        String result = (str.indexOf(character) != -1) ? "vovel" : "consonant";
+        System.out.println(result);
+    }
+
     public static void main(String[] args) {
         // Check wheter the character id vovel or consonant
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the character : ");
         char character = sc.nextLine().charAt(0);
-        checkChar(character);
-
+        // checkChar(character);
+        checkCharacter(character);
     }
 }
