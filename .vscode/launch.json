@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findFibonacci3",
+            "request": "launch",
+            "mainClass": "findFibonacci3",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "calculateFact2",
             "request": "launch",
             "mainClass": "calculateFact2",
