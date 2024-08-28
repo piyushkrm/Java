@@ -14,6 +14,14 @@ public class calculateFact2 {
         }
         return result;
     }
+
+    // Approach 2
+    public static int fact2(int number) {
+        if (number == 1 || number == 0) {
+            return 1;
+        }
+        return number * fact2(number-1);
+    }
     public static void main(String[] args) {
         // calculate factorial 
         // Approach1
@@ -21,5 +29,6 @@ public class calculateFact2 {
         System.out.print("Enter the number for calculating factorial : ");
         int number = sc.nextInt();
         System.out.println(fact1(number));
+        System.out.println(fact2(number));
     }
 }
