@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "compoundInterest7",
+            "request": "launch",
+            "mainClass": "compoundInterest7",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "calculateSimpleInterest6",
             "request": "launch",
             "mainClass": "calculateSimpleInterest6",
