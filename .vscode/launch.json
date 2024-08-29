@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintLeftTriangleStar",
+            "request": "launch",
+            "mainClass": "PrintLeftTriangleStar",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "printLeftTringleStar2",
+            "request": "launch",
+            "mainClass": "printLeftTringleStar2",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "printRightTringle1",
             "request": "launch",
             "mainClass": "printRightTringle1",
