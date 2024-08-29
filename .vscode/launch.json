@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SquareStarPattern4",
+            "request": "launch",
+            "mainClass": "SquareStarPattern4",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "printingarightangledtrianglestarpattern3",
             "request": "launch",
             "mainClass": "printingarightangledtrianglestarpattern3",
