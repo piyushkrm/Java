@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class InvertedPyramidStarPattern6 {
+public class InvertedPyramidStarPattern5 {
 
     public static void print(int x) {
         for (int i = 0; i <= x; i++) {
