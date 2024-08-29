@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printingarightangledtrianglestarpattern3",
+            "request": "launch",
+            "mainClass": "printingarightangledtrianglestarpattern3",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "PrintLeftTriangleStar",
             "request": "launch",
             "mainClass": "PrintLeftTriangleStar",
