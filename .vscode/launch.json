@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InvertedPyramidStarPattern6",
+            "request": "launch",
+            "mainClass": "InvertedPyramidStarPattern6",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "SquareStarPattern4",
             "request": "launch",
             "mainClass": "SquareStarPattern4",
