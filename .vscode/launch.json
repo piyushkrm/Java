@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ButterflyPattern2",
+            "request": "launch",
+            "mainClass": "ButterflyPattern2",
+            "projectName": "Java_f2586654"
+        },
+        {
+            "type": "java",
             "name": "HollowSquareStarPattern1",
             "request": "launch",
             "mainClass": "HollowSquareStarPattern1",
