@@ -16,7 +16,8 @@ public class HollowSquareStarPattern1 {
 
     public static void main(String[] args) {
         // Hollow Square Star Pattern: This pattern prints a square but leaves the middle portion hollow.S
-        Scanner scanner = new Scanner(System.in);t
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter column : ");  // User input for the size of the square.  // 5
         int x = scanner.nextInt();
         print(x);
     }

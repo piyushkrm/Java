@@ -9,6 +9,13 @@
             "name": "HollowSquareStarPattern1",
             "request": "launch",
             "mainClass": "HollowSquareStarPattern1",
+            "projectName": "Java_f2586654"
+        },
+        {
+            "type": "java",
+            "name": "HollowSquareStarPattern1",
+            "request": "launch",
+            "mainClass": "HollowSquareStarPattern1",
             "projectName": "Java_4e35e324"
         },
         {
