@@ -1,4 +1,6 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "docwriter.progress.trackFunctions": true,
+    "docwriter.progress.trackClasses": true
 }

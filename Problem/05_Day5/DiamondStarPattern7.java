@@ -20,6 +20,9 @@ public class DiamondStarPattern7 {
                 System.out.print(" ");
             }
             for (int j = x - 1; j >= i; j--) {
+                // `System.out.print("* ");` is printing a single asterisk followed by a space. This
+                // statement is used to print the stars in the diamond pattern with spaces in between
+                // each star.
                 System.out.print("* ");
             }
             System.out.println();
@@ -29,7 +32,7 @@ public class DiamondStarPattern7 {
     public static void main(String[] args) {
         // Diamond Star Pattern: This pattern prints a diamond shape with stars.
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter height of dimand pattern : ");
+        System.out.print("Enter height of dimond pattern : ");
         int s = sc.nextInt();
         print(s);
     }

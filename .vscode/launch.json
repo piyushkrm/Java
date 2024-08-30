@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HollowSquareStarPattern1",
+            "request": "launch",
+            "mainClass": "HollowSquareStarPattern1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "DiamondStarPattern7",
             "request": "launch",
             "mainClass": "DiamondStarPattern7",
