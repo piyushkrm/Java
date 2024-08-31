@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DownwardTriangleStarPattern1",
+            "request": "launch",
+            "mainClass": "DownwardTriangleStarPattern1",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "ButterflyPattern2",
+            "request": "launch",
+            "mainClass": "ButterflyPattern2",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "ButterflyPattern2",
             "request": "launch",
             "mainClass": "ButterflyPattern2",
