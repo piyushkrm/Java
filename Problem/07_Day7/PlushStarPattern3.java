@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PlushStarPattern {
+public class PlushStarPattern3 {
 
     /**
      * The function `printPlusStar` in Java prints a pattern of plus and star symbols based on the
