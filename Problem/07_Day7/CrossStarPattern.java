@@ -3,7 +3,19 @@ public class CrossStarPattern {
     public static void printPlusStar(int size) {
         for (int i = 0; i <= size; i++) {
             for (int j = 0; j <= size; j++) {
-                System.out.print("* ");
+                if (i == size) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.print("* ");
+            for (int j = 0; j <= size; j++) {
+                if (i == size) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
             }
             System.out.println();
         }
