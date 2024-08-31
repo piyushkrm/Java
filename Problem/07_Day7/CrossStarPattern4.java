@@ -1,15 +1,22 @@
 public class CrossStarPattern4 {
 
     public static void crossPattern(int size) {
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
+        for (int i = 0; i <= size; i++) {
+            for (int j = 0; j <= size; j++) {
                 if (i == j) {
                     System.out.print("* ");
                 } else {
                     System.out.print("  ");
                 }
             }
-            
+            for (int j = size; j >= 0; j--) {
+                if (i == j) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+
             System.out.println();
         }
 
