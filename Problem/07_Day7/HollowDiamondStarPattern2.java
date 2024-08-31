@@ -2,6 +2,14 @@ import java.util.Scanner;
 
 public class HollowDiamondStarPattern2 {
 
+    /**
+     * The function `printHollowDiamond` in Java prints a hollow diamond pattern of a specified size
+     * using asterisks and spaces.
+     * 
+     * @param size The `size` parameter in the `printHollowDiamond` method represents the size of the
+     * hollow diamond to be printed. The diamond will have 2*size + 1 rows in total. The number of
+     * asterisks (*) in each row will vary based on the row number to form the diamond shape
+     */
     public static void printHollowDiamond(int size) {
         for (int i = size; i >= 0; i--) {
             for (int j = 0; j <= i; j++) {
