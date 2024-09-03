@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hollowTriangle",
+            "request": "launch",
+            "mainClass": "hollowTriangle",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "CrossStarPattern4",
             "request": "launch",
             "mainClass": "CrossStarPattern4",
