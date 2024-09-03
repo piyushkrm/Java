@@ -2,6 +2,15 @@ import java.util.Scanner;
 
 public class hollowTriangle {
 
+    /**
+     * The function `printHollowTriangles` in Java prints a pattern of hollow triangles based on the
+     * input number `n`.
+     * 
+     * @param n The `printHollowTriangles` method you provided seems to be intended to print a pattern
+     * of hollow triangles. However, there seems to be a missing `System.out.println();` statement
+     * after the inner loop in the second part of the method, which is causing the output to be printed
+     * on the same
+     */
     public static void printHollowTriangles(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i; j++) {
