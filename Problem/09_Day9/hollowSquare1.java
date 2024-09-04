@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class hollowSquare1 {
 
     public static void print(int x) {
@@ -12,7 +12,10 @@ public class hollowSquare1 {
 
     public static void main(String[] args) {
         // Hollow square with streaks
-        int n = 10;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number to print number of streak : ");
+        int n = sc.nextInt();
+        // int n = 10;
         print(n);
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hollowSquare1",
+            "request": "launch",
+            "mainClass": "hollowSquare1",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "hollowTriangle",
             "request": "launch",
             "mainClass": "hollowTriangle",
