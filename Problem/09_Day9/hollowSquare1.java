@@ -6,6 +6,8 @@ public class hollowSquare1 {
             for (int j = 0; j < x; j++) {
                 if (j == 0 || j == x) {
                     System.out.print("* ");
+                } else {
+                    
                 }
             }
             System.out.println();
