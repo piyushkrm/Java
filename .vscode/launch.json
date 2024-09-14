@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "singleElement1",
+            "request": "launch",
+            "mainClass": "singleElement1",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "arraySum",
             "request": "launch",
             "mainClass": "arraySum",
