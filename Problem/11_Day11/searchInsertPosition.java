@@ -29,7 +29,7 @@ public class searchInsertPosition {
         int[] array = new int[size];
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < size; i++) {
-            System.out.print("Enter element " + (i + 1) + ": ");
+            System.out.print("Enter the element " + (i + 1) + ": ");
             array[i] = scanner.nextInt();
         }
 
