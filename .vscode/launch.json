@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "printSubArray1",
+            "request": "launch",
+            "mainClass": "printSubArray1",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "searchInsertPosition",
             "request": "launch",
             "mainClass": "searchInsertPosition",
