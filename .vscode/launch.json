@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "majorElements",
+            "request": "launch",
+            "mainClass": "majorElements",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "kadans",
             "request": "launch",
             "mainClass": "kadans",
