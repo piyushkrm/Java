@@ -44,9 +44,42 @@ public class majorElements {
         return -1;
     }
 
+    // Moore's voting algorithm approch to find major element of an array
+
+    public static int findMajorityElementMoore(int[] nums) {
+        int freq = 0;
+        int n = nums.length;
+        int ans = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (freq == 0) {
+                ans = nums[i];
+            }
+
+            if (nums[i] == ans) {
+                freq++;
+            } else {
+                freq--;
+            }
+
+        }
+        int count = 0;
+        for (int num : nums) {
+            if (num == ans) {
+                count++;
+            }
+        }
+        if (count > n / 2) {
+            return ans;
+        } else {
+            return -1;
+        }
+    }
+
     public static void main(String[] args) {
         int[] array = {1, 2, 2, 1, 1, 2, 2, 2};
-        // System.out.println("The majority element is: " + findMajorElements(array));
+        System.out.println("The majority element is: " + findMajorElements(array));
         System.out.println("The majority element is: " + findMajorityElement(array));
+        System.out.println("The majority element is: " + findMajorityElementMoore(array));
     }
 }
