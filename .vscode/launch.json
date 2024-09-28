@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leetcode238",
+            "request": "launch",
+            "mainClass": "leetcode238",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "AddBinaryWithFun4",
+            "request": "launch",
+            "mainClass": "AddBinaryWithFun4",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "leetcode11",
             "request": "launch",
             "mainClass": "leetcode11",
