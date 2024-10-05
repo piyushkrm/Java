@@ -35,6 +35,6 @@ public class leetcode33 {
         int[] array = { 3, 4, 5, 6, 7, 0, 1, 2 };
         int target = 0;
         int result = search(array, target);
-        System.out.println("Index of target: " + result);
+        System.out.println("Index of target on an array : " + result);
     }
 }
