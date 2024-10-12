@@ -26,8 +26,11 @@ public class leetcode704 {
     public static void main(String[] args) {
         int[] array = { -1, 0, 3, 5, 9, 12 };
         int target = 9;
-
         int result = searchTarget(array, target);
         System.out.println("Target index : " + result);
+        
+        int target2 = 2;
+        int result2 = searchTarget(array, target2);
+        System.out.println("Target index : " + result2);
     }
 }
