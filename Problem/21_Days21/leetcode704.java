@@ -1,6 +1,5 @@
 public class leetcode704 {
 
-
     public static int searchTarget(int[] array, int target) {
 
         int start = 0;
@@ -18,13 +17,17 @@ public class leetcode704 {
             }
 
             else {
-                end = mid - 1;  // search in the left half of the array to find the target element.
+                end = mid - 1; // search in the left half of the array to find the target element.
             }
         }
         return -1;
     }
 
     public static void main(String[] args) {
-        
+        int[] array = { -1, 0, 3, 5, 9, 12 };
+        int target = 9;
+
+        int result = searchTarget(array, target);
+        System.out.println("Target index : " + result);
     }
 }
