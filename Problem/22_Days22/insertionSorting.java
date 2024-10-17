@@ -1,5 +1,12 @@
 public class insertionSorting {
 
+
+    public static void printArray(int[] array) {
+        for  (int ele : array) {
+            System.out.print(ele + " ");
+        }
+    }
+    
     public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
