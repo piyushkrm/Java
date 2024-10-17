@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leetcode75",
+            "request": "launch",
+            "mainClass": "leetcode75",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "leetcode45",
+            "request": "launch",
+            "mainClass": "leetcode45",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "bubbleSort",
             "request": "launch",
             "mainClass": "bubbleSort",
