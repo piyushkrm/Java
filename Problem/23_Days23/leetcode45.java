@@ -1,6 +1,13 @@
 public class leetcode45 {
     // Sort an array of 0's, 1's and 2's
 
+    // print array
+    public static void printArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+
     public static void sortColors(int[] arr) {
         int low = 0; 
         int mid = 0;
@@ -22,7 +29,8 @@ public class leetcode45 {
                 high--;
             }
         }
+        printArray(arr);
     }
 
-    
+
 }
