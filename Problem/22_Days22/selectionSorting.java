@@ -22,3 +22,9 @@ public class selectionSorting {
         printArray(arr);
     }
     
+    public static void main(String[] args) {
+        System.out.println("Selection sorting algorithm");
+        int[] array = {4, 1, 5, 2, 3};
+        selectionSort(array);
+    }
+}
