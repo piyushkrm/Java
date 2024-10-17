@@ -6,7 +6,7 @@ public class insertionSorting {
             System.out.print(ele + " ");
         }
     }
-    
+
     public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
@@ -18,6 +18,7 @@ public class insertionSorting {
             }
             arr[j + 1] = key;
         }
+        printArray(arr);
     }
 
     public static void main(String[] args) {
