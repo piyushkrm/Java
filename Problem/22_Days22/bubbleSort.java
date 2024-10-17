@@ -1,6 +1,13 @@
 
 public class bubbleSort {
 
+
+    public static void printArray(int[] array) {
+        for (int ele : array) {
+            System.out.print(ele + " ");
+        }
+    }
+
     // Approach 1 --> Brute Force Approach
     public static void bubbleSorting(int[] array) {
         
@@ -12,12 +19,11 @@ public class bubbleSort {
                     array[j + 1] = temp;
                 }
             }
-        }
-
-        for (int ele : array) {
-            System.out.print(ele + " ");
-        }
+        }   
+        printArray(array);
     }
+
+
     public static void main(String[] args) {
         int[] array = {4, 1, 5, 2, 3};
         bubbleSorting(array);  // call the bubbleSorting method
