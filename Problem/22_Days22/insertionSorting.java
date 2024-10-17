@@ -22,6 +22,8 @@ public class insertionSorting {
     }
 
     public static void main(String[] args) {
-
+        System.out.println("Insertion sorting");
+        int[] array = {4, 1, 5, 2, 3};
+        insertionSort(array);
     }
 }
