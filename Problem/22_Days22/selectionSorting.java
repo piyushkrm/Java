@@ -1,5 +1,11 @@
 public class selectionSorting {
 
+
+    public static void printArray(int[] array) {
+        for (int ele : array) {
+            System.out.print(ele + " ");
+        }
+    }
     public static void selectionSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
@@ -13,6 +19,6 @@ public class selectionSorting {
             arr[minIndex] = arr[i];
             arr[i] = temp;
         }
+        printArray(arr);
     }
     
-}
