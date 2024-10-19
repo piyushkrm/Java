@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class leetcode217 {
 
 
@@ -14,9 +16,23 @@ public class leetcode217 {
         }
         return false;
     }
+
+    public static boolean containsDuplicate2(int[] arr) {
+
+        int n = arr.length;
+        Arrays.sort(arr);
+
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == arr[i + 1]) {
+                return true;
+            }
+        }
+        return false;
+    }
     
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 1};
         System.out.println(containsDuplicate(arr)); // Output: true
+        System.out.println(containsDuplicate2(arr)); // Output: true
     }
 }
