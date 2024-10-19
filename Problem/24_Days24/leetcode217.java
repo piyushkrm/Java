@@ -16,6 +16,7 @@ public class leetcode217 {
     }
     
     public static void main(String[] args) {
-        
+        int[] arr = {1, 2, 3, 1};
+        System.out.println(containsDuplicate(arr)); // Output: true
     }
 }
