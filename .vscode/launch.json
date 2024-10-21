@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nextPermutation",
+            "request": "launch",
+            "mainClass": "nextPermutation",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "leetcode88Problem",
+            "request": "launch",
+            "mainClass": "leetcode88Problem",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "leetcode217",
             "request": "launch",
             "mainClass": "leetcode217",
