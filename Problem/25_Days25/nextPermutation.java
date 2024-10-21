@@ -1,5 +1,19 @@
+import java.util.Arrays;
+
 public class nextPermutation {
     // leet code 31 problem
+
+    public static void reverseArray(int[] nums) {
+        int start = 0;
+        int end = nums.length - 1;
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
+        }
+    }
 
     public static void nextPermutation(int[] nums) {
         int pivot = -1;
@@ -13,7 +27,7 @@ public class nextPermutation {
         }
 
         if (pivot == -1) {
-            reverse(nums, 0, n - 1);
+            reverseArray(nums);
             return;
         }
 
@@ -26,6 +40,6 @@ public class nextPermutation {
             }
         }
 
-        reverse(nums, pivot + 1, n - 1);
+        reverseArray(nums);
     }
 }
