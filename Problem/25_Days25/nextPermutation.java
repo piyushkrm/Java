@@ -42,4 +42,18 @@ public class nextPermutation {
 
         reverseArray(nums);
     }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3};
+        nextPermutation(nums);
+        System.out.println("Next Permutation: " + Arrays.toString(nums));
+
+        int[] nums2 = {3, 2, 1};
+        nextPermutation(nums2);
+        System.out.println("Next Permutation: " + Arrays.toString(nums2));
+
+        int[] nums3 = {1, 1, 5};
+        nextPermutation(nums3);
+        System.out.println("Next Permutation: " + Arrays.toString(nums3));
+    }
 }
