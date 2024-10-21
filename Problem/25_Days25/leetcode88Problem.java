@@ -27,7 +27,16 @@ public class leetcode88Problem {
         }
     }
     public static void main(String[] args) {
-
+        // call the function
+        int[] nums1 = {1, 2, 3, 0, 0, 0};
+        int m = 3;
+        int[] nums2 = {2, 5, 6};
+        int n = 3;
+        merge(nums1, m, nums2, n);
+        // print the merged array
+        for (int num : nums1) {
+            System.out.print(num + " ");
+        }
         
     }
 }
