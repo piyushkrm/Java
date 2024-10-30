@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringFunctions",
+            "request": "launch",
+            "mainClass": "StringFunctions",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "String",
+            "request": "launch",
+            "mainClass": "String",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "nextPermutation",
             "request": "launch",
             "mainClass": "nextPermutation",
