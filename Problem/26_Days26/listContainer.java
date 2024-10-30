@@ -27,6 +27,11 @@ public static void printList(List<Integer> list) {
         // Get element  
         System.out.println("Element at the index 2 is : "+ list.get(2)); // get element from list at position 2
 
+        // Add element on the at specified index
+        list.add(1, 12);
+        printList(list);
+        
+
         
     }
 }
