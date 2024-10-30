@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "setContainer",
+            "request": "launch",
+            "mainClass": "setContainer",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "priorityQueueContainer",
+            "request": "launch",
+            "mainClass": "priorityQueueContainer",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "queueContainer",
+            "request": "launch",
+            "mainClass": "queueContainer",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "dequeContainer",
+            "request": "launch",
+            "mainClass": "dequeContainer",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "listContainer",
             "request": "launch",
             "mainClass": "listContainer",
