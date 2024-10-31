@@ -11,12 +11,10 @@ public class validPalindrome {
         int left = 0;
         int right = s.length() - 1;
         while (left < right) {
-            if (!isAlphaNumeric(left)) {
-                left++;
+            if (!isAlphaNumeric(left++)) {
                 continue;
             }
-            if (!isAlphaNumeric(right)) {
-                right--;
+            if (!isAlphaNumeric(right--)) {
                 continue;
             }
 
