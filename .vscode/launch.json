@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "validPalindrome",
+            "request": "launch",
+            "mainClass": "validPalindrome",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "mapContainer",
+            "request": "launch",
+            "mainClass": "mapContainer",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "stackContainer",
+            "request": "launch",
+            "mainClass": "stackContainer",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "setContainer",
             "request": "launch",
             "mainClass": "setContainer",
