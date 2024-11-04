@@ -3,6 +3,14 @@
 
 public class permutationInString {
 
+    public static boolean isFrequency(int[] freq, int[] windowFrequency) {
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] != windowFrequency[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
 
     public static boolean checkInclusion(String s1, String s2) {
         if (s1.length() > s2.length())
