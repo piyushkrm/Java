@@ -47,6 +47,10 @@ public class permutationInString {
     }
 
     public static void main(String[] args) {
+        String s1 = "ab";
+        String s2 = "eidbaooo";
 
+        // call the function
+        System.out.println(checkInclusion(s1, s2)); // Should output true
     }
 }
