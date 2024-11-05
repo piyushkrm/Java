@@ -3,6 +3,9 @@
 public class primeNumber {
 
     public static String isPrime(int x) {
+        if (x <= 1) {
+            return "Not a prime number";
+        }
         for (int i = 2; i * i < x; i++) {
             if (x % i == 0) {
                 return "Not a prime number";
