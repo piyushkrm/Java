@@ -23,9 +23,21 @@ public class digitsInANumber {
         }
     }
 
+    // Sum of the digits
+    public static int sumOfDigits(int n) {
+        int sum = 0;
+        while (n!= 0) {
+            int digit = n % 10;
+            sum += digit;
+            n = n / 10;
+        }
+        return sum;
+    }
+
     public static void main(String[] args) {
         int number = 123456;
         System.out.println("Number of digits in " + number + " is: " + countOfDigits(number));
         printDigits(number);
+        System.out.println("\nSum of digits in " + number + " is: " + sumOfDigits(number));
     }
 }
