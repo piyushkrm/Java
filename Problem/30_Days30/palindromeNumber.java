@@ -1,7 +1,7 @@
 
-// Reverse a number
+// Checking Palindrome number 
 
-public class reverseANumber {
+public class palindromeNumber {
 
     // Method to reverse a number
     public static int reverseNumber(int number) {
@@ -20,10 +20,19 @@ public class reverseANumber {
         return reverseNumber;
     }
 
+    public static boolean isPalindrome(int value) {
+        if (value < 0)
+            return false;
+        int reverseNumber = reverseNumber(value);
+        return value == reverseNumber;
+    }
+
     public static void main(String[] args) {
-        int number = 12345;
-        System.out.println("Original number: " + number);
-        int reversedNumber = reverseNumber(number);
-        System.out.println("Reversed number: " + reversedNumber);
+        int number = 12321;
+        if (isPalindrome(number)) {
+            System.out.println(number + " is a palindrome number");
+        } else {
+            System.out.println(number + " is not a palindrome number");
+        }
     }
 }
