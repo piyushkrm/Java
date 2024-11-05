@@ -8,6 +8,12 @@ public class reverseANumber {
         int reverseNumber = 0;
         while (number != 0) {
             int digit = number % 10;
+
+            // Check for overflow/underflow
+            if (reverseNumber > Integer.MAX_VALUE / 10 || reverseNumber < Integer.MIN_VALUE / 10) {
+                return 0; // Return 0 if overflow/underflow occurs
+            }
+
             reverseNumber = reverseNumber * 10 + digit;
             number = number / 10;
         }
