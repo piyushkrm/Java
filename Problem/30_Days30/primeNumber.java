@@ -42,6 +42,28 @@ public class primeNumber {
         }
     }
 
+    // Best approach 3 to find a prime number in a range
+    public static int countPrimes(int n) {
+        if (n <= 2)
+            return 0; // There are no prime numbers less than 2
+
+        boolean[] isPrime = new boolean[n];
+        for (int i = 0; i < n; i++) {
+            isPrime[i] = true; // Assume all numbers are prime initially
+        }
+
+        int count = 0;
+        for (int i = 2; i < n; i++) {
+            if (isPrime[i]) {
+                count++; // Increment count for each prime number found
+                for (int j = i * 2; j < n; j += i) {
+                    isPrime[j] = false; // Not a prime number, Mark multiples of i as non-prime
+                }
+            }
+        }
+        return count; // Return the total count of primes less than n
+    }
+
     public static void main(String[] args) {
         int number = 24;
         System.out.println(isPrime(number)); // Output: Not a prime number
@@ -53,7 +75,11 @@ public class primeNumber {
         System.out.println();
 
         start = 100;
-        end = 200;
+        end = 120;
         checkPrimeInRange2(start, end); // Output: 1 : Not a prime number
+
+        int num = 50;
+        System.out.println("Count of primes between 1 and " + num + ": " + countPrimes(num + 1)); // Output: 7
+        System.out.println();
     }
 }
