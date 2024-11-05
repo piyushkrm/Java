@@ -35,11 +35,19 @@ public class gcdORhcf {
         return x + y;
     }
 
+    // Euclidean Algorithm using recursion
+    public static int gcdRecursive(int x, int y) {
+        if (y == 0)
+            return x;
+        return gcdRecursive(y, x % y);
+    }
+
     public static void main(String[] args) {
         int x = 20;
         int y = 28;
         System.out.println("GCD of " + x + " and " + y + " is: " + gcd(x, y));
         System.out.println("HCF of " + x + " and " + y + " is: " + gcdOptimalApproach(x, y));
+        System.out.println("GCD of " + x + " and " + y + " using recursion is: " + gcdRecursive(x, y));
     }
 
 }
