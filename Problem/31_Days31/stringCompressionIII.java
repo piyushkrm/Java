@@ -32,7 +32,13 @@ public class stringCompressionIII {
     }
 
     public static void main(String[] args) {
+        // Test cases
+        String word1 = "abcde";
+        String word2 = "aaaaaaaaaaaaaabb";
 
+        // Call the function
+        System.out.println("The compress string are : "+ compressString(word1));
+        System.out.println("The compress string are : "+ compressString(word2));
         
     }
 }
