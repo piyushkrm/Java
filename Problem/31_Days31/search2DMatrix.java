@@ -46,7 +46,7 @@ public class search2DMatrix {
                 return searchRow(matrix, target, midRow);
             }
 
-            else if (target > matrix[midRow][rows - 1]) {
+            else if (target > matrix[midRow][matrix[0].length - 1]) {
                 startRow = midRow + 1;
             } else {
                 endRow = midRow - 1;
