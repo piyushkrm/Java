@@ -6,6 +6,15 @@ import java.util.ArrayList;
 
 public class spiralMatrix {
 
+    /**
+     * The `spiralOrder` function takes a 2D matrix as input and returns its elements in spiral order.
+     * 
+     * @param matrix The `spiralOrder` method you provided is used to traverse a 2D matrix in a spiral
+     * order and return the elements in an array. The input parameter `matrix` is a 2D array of
+     * integers representing the matrix to be traversed in a spiral order.
+     * @return The `spiralOrder` method returns an array of integers representing the elements of the
+     * input matrix in spiral order.
+     */
     public static int[] spiralOrder(int[][] matrix) {
         ArrayList<Integer> answer = new ArrayList<>();
         int m = matrix.length;
